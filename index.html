@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Climatic</title>
+    <link rel="icon" href="img/icono.ico" type="image/x-icon">
+    <script src="https://kit.fontawesome.com/ca8e96e71b.js" crossorigin="anonymous"></script>
+    <link
+         href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0
+        ,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <main>
+        <video autoplay muted loop id="background-video">
+            <source src="" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+
+        <div class="container">
+            <div class="search-box">
+                <i class="fa-solid fa-location-dot"></i>
+                <input type="text" placeholder="Busca tu localizacion">
+                <button class="fa-solid fa-magnifying-glass"></button>
+            </div>
+
+            <div class="not-found">
+                <img src="img/Error404.png" alt="">
+                <p>Error...La localizacion no se ha encontrado :c</p>
+            </div>
+            <div class="weather-box">
+                <img src="" alt="">
+                <p class="temperature"></p>
+                <p class="description"></p>
+            </div>
+    
+            <div class="weather-details">
+                <div class="humidity">
+                    <i class="fa-solid fa-water"></i>
+                    <div class="text">
+                        <span class="text">
+                            <span></span>
+                            <p>Humidity</p>
+                        </span>
+                    </div>
+                </div>
+
+                <div class="wind">
+                    <i class="fa-solid fa-wind"></i>
+                    <div class="text">
+                        <span class="text">
+                            <span></span>
+                            <p>Wind Speed</p>
+                        </span>
+                    </div>
+                </div>
+            </div>
+    
+
+        </div>
+
+        
+
+    </main>
+    <script src="index.js"></script>
+</body>
+</html>
