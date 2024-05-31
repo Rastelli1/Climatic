@@ -1,1 +1,2 @@
 # Climatic
+He desarrollado una pagina web básica del clima como parte de mi práctica para mejorar mis habilidades en JavaScript, HTML y CSS. Esta aplicación permite a los usuarios consultar el clima actual de cualquier ubicación. Utilizo una API de clima para obtener los datos en tiempo real y los presento de forma clara y fácil de entender en la interfaz de usuario. Es un proyecto práctico que combina programación frontend, integración de APIs y diseño web para crear una experiencia interactiva y útil para los usuarios
